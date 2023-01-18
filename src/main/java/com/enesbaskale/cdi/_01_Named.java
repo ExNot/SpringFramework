@@ -14,7 +14,7 @@ import lombok.extern.log4j.Log4j2;
 @Builder
 @Log4j2
 
-//cdi ==> Bean
+//cdi ==> Bean//
 @Named(value = "namedtuto")
 @ApplicationScoped
 public class _01_Named {
