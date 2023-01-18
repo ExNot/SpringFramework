@@ -6,5 +6,8 @@
        bean-discovery-mode="all">
 
 
-
+    <alternatives>
+        <class>com.enesbaskale.alternative.Boss1</class>
+        <!--<class>com.enesbaskale.alternative.Boss2</class>-->
+    </alternatives>
 </beans>

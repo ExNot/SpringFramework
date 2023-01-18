@@ -1,10 +1,10 @@
-package com.enesbaskale.ioc_di;
+package com.enesbaskale.alternative;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import jakarta.inject.Named;
 
-@Named(value = "IOC_DI")
+@Named(value = "alternativedi")
 @ApplicationScoped
 public class Employee {
 
