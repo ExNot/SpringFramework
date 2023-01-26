@@ -6,8 +6,16 @@
        bean-discovery-mode="all">
 
 
+    <!--alternative-->
     <alternatives>
         <class>com.enesbaskale.alternative.Boss1</class>
         <!--<class>com.enesbaskale.alternative.Boss2</class>-->
     </alternatives>
+
+
+    <!--interceptor-->
+    <interceptors>
+        <class>com.enesbaskale.aop.interceptor.InterceptorYolKesiciAsilIs</class>
+    </interceptors>
+
 </beans>
