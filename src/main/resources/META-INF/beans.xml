@@ -18,4 +18,10 @@
         <class>com.enesbaskale.aop.interceptor.InterceptorYolKesiciAsilIs</class>
     </interceptors>
 
+    <!--decorator-->
+    <decorators>
+        <class>com.enesbaskale.aop.decorator.EvDecorator</class>
+    </decorators>
+
+
 </beans>
